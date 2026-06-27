@@ -62,14 +62,6 @@
 <div class="section eor1">
   <div class="section-header">ЕОР 1 — Производство кондитерских изделий</div>
 
-  <div class="item done" id="i1">
-    <input type="checkbox" checked onchange="toggle('i1','row_vzb')">
-    <div class="item-text">
-      <div class="item-title">Тяжёлая взбитая масса <span class="tag tag-done">✅ готово</span></div>
-      <div class="item-sub">Торт «Красный бархат» (Red Velvet) — бисквит, крем cheese, нормирование, HACCP</div>
-    </div>
-  </div>
-
   <div class="item" id="i2">
     <input type="checkbox" onchange="toggle('i2','row_zavarn')">
     <div class="item-text">
@@ -83,14 +75,6 @@
     <div class="item-text">
       <div class="item-title">Слоёное тесто <span class="tag tag-todo">❌ нужно</span> <span class="tag tag-pri">приоритет</span></div>
       <div class="item-sub">Круассан со сладкой начинкой (миндальный крем / frangipane) — ламинирование, раскатка, холодный отдых теста, выпечка с паром + приготовление начинки (покрывает наполнение изделий из слоёного теста + сладкие начинки)</div>
-    </div>
-  </div>
-
-  <div class="item done" id="i4">
-    <input type="checkbox" checked onchange="toggle('i4','row_orekh')">
-    <div class="item-text">
-      <div class="item-title">Ореховая масса <span class="tag tag-done">✅ готово</span></div>
-      <div class="item-sub">Макаронс Vanilka &amp; Jahoda — французская меренга на сухом альбумине, macaronage, ганаш Callebaut + клубничный конфи; сравнение с итальянским методом; 100 шт (200 krídeliek)</div>
     </div>
   </div>
 
@@ -123,6 +107,22 @@
     <div class="item-text">
       <div class="item-title">Мусс / желирование + шоколадная оболочка <span class="tag tag-todo">❌ нужно</span> <span class="tag tag-pri">приоритет</span></div>
       <div class="item-sub">Муссовое пирожное «Банан» — мусс с желатином, заморозка в форме, шоколад + какао-масло (велюр/оболочка)</div>
+    </div>
+  </div>
+
+  <div class="item done" id="i1">
+    <input type="checkbox" checked onchange="toggle('i1','row_vzb')">
+    <div class="item-text">
+      <div class="item-title">Тяжёлая взбитая масса <span class="tag tag-done">✅ готово</span></div>
+      <div class="item-sub">Торт «Красный бархат» (Red Velvet) — бисквит, крем cheese, нормирование, HACCP</div>
+    </div>
+  </div>
+
+  <div class="item done" id="i4">
+    <input type="checkbox" checked onchange="toggle('i4','row_orekh')">
+    <div class="item-text">
+      <div class="item-title">Ореховая масса <span class="tag tag-done">✅ готово</span></div>
+      <div class="item-sub">Макаронс Vanilka &amp; Jahoda — французская меренга на сухом альбумине, macaronage, ганаш Callebaut + клубничный конфи; сравнение с итальянским методом; 100 шт (200 krídeliek)</div>
     </div>
   </div>
 
@@ -163,6 +163,14 @@
 <div class="section eor2">
   <div class="section-header">ЕОР 2 — Хранение сырья, полуфабрикатов и готовой продукции</div>
 
+  <div class="item" id="i16">
+    <input type="checkbox" onchange="toggle('i16','row_vhod')">
+    <div class="item-text">
+      <div class="item-title">Входной контроль качества сырья <span class="tag tag-todo">❌ нужно</span></div>
+      <div class="item-sub">Образец журнала входного контроля (приём товара, органолептика при приёме)</div>
+    </div>
+  </div>
+
   <div class="item done" id="i13">
     <input type="checkbox" checked onchange="toggle('i13','row_sklad')">
     <div class="item-text">
@@ -186,27 +194,11 @@
       <div class="item-sub">Таблица аллергенов по Регламенту ЕС 1169/2011 — Red Velvet</div>
     </div>
   </div>
-
-  <div class="item" id="i16">
-    <input type="checkbox" onchange="toggle('i16','row_vhod')">
-    <div class="item-text">
-      <div class="item-title">Входной контроль качества сырья <span class="tag tag-todo">❌ нужно</span></div>
-      <div class="item-sub">Образец журнала входного контроля (приём товара, органолептика при приёме)</div>
-    </div>
-  </div>
 </div>
 
 <!-- EOR 3 -->
 <div class="section eor3">
   <div class="section-header">ЕОР 3 — Оборудование, машины и инструменты</div>
-
-  <div class="item done" id="i17">
-    <input type="checkbox" checked onchange="toggle('i17','row_mixer')">
-    <div class="item-text">
-      <div class="item-title">Планетарный миксер — описание + BOZP <span class="tag tag-done">✅ готово</span></div>
-      <div class="item-sub">Раздел 2.3 — Red Velvet</div>
-    </div>
-  </div>
 
   <div class="item" id="i18">
     <input type="checkbox" onchange="toggle('i18','row_equip')">
@@ -223,35 +215,19 @@
       <div class="item-sub">Чистка, настройка, смазка — можно добавить в обзорный документ по оборудованию</div>
     </div>
   </div>
+
+  <div class="item done" id="i17">
+    <input type="checkbox" checked onchange="toggle('i17','row_mixer')">
+    <div class="item-text">
+      <div class="item-title">Планетарный миксер — описание + BOZP <span class="tag tag-done">✅ готово</span></div>
+      <div class="item-sub">Раздел 2.3 — Red Velvet</div>
+    </div>
+  </div>
 </div>
 
 <!-- Docs -->
 <div class="section docs">
   <div class="section-header">📄 Сквозные темы и документация</div>
-
-  <div class="item done" id="i20">
-    <input type="checkbox" checked onchange="toggle('i20','row_haccp')">
-    <div class="item-text">
-      <div class="item-title">HACCP / критические точки (CCP) <span class="tag tag-done">✅ готово</span></div>
-      <div class="item-sub">Раздел 2.1 — 3 CCP с мониторингом и корректирующими мерами — Red Velvet</div>
-    </div>
-  </div>
-
-  <div class="item done" id="i21">
-    <input type="checkbox" checked onchange="toggle('i21','row_calc')">
-    <div class="item-text">
-      <div class="item-title">Калькуляция и ценообразование <span class="tag tag-done">✅ готово</span></div>
-      <div class="item-sub">Food cost, себестоимость, продажная цена, проверка gold rule — Red Velvet</div>
-    </div>
-  </div>
-
-  <div class="item done" id="i22">
-    <input type="checkbox" checked onchange="toggle('i22','row_market')">
-    <div class="item-text">
-      <div class="item-title">Маркетинг / продажи <span class="tag tag-done">✅ готово</span></div>
-      <div class="item-sub">Цифровая визитка для соцсетей — Red Velvet</div>
-    </div>
-  </div>
 
   <div class="item" id="i23">
     <input type="checkbox" onchange="toggle('i23','row_skl_karta')">
@@ -277,6 +253,30 @@
     </div>
   </div>
 
+  <div class="item done" id="i20">
+    <input type="checkbox" checked onchange="toggle('i20','row_haccp')">
+    <div class="item-text">
+      <div class="item-title">HACCP / критические точки (CCP) <span class="tag tag-done">✅ готово</span></div>
+      <div class="item-sub">Раздел 2.1 — 3 CCP с мониторингом и корректирующими мерами — Red Velvet</div>
+    </div>
+  </div>
+
+  <div class="item done" id="i21">
+    <input type="checkbox" checked onchange="toggle('i21','row_calc')">
+    <div class="item-text">
+      <div class="item-title">Калькуляция и ценообразование <span class="tag tag-done">✅ готово</span></div>
+      <div class="item-sub">Food cost, себестоимость, продажная цена, проверка gold rule — Red Velvet</div>
+    </div>
+  </div>
+
+  <div class="item done" id="i22">
+    <input type="checkbox" checked onchange="toggle('i22','row_market')">
+    <div class="item-text">
+      <div class="item-title">Маркетинг / продажи <span class="tag tag-done">✅ готово</span></div>
+      <div class="item-sub">Цифровая визитка для соцсетей — Red Velvet</div>
+    </div>
+  </div>
+
   <div class="note">* Производственные документы можно оформить как учебные образцы — не обязательно реальные рабочие формы</div>
 </div>
 
@@ -295,7 +295,7 @@
       <tr><td>Тяжёлая взбитая масса</td><td>Red Velvet</td><td id="row_vzb" class="status-done">✅ Готово</td></tr>
       <tr><td>Заварное тесто</td><td>Шу / профитроли + гриляж</td><td id="row_zavarn" class="status-todo">❌ Нужно</td></tr>
       <tr><td>Слоёное тесто</td><td>Круассан</td><td id="row_sloen" class="status-todo">❌ Нужно</td></tr>
-      <tr><td>Ореховая масса</td><td>Макаронс</td><td id="row_orekh" class="status-todo">❌ Нужно</td></tr>
+      <tr><td>Ореховая масса</td><td>Макаронс Vanilka &amp; Jahoda</td><td id="row_orekh" class="status-done">✅ Готово</td></tr>
       <tr><td>Твёрдое тесто</td><td>Линецкое печенье</td><td id="row_tverd" class="status-todo">❌ Нужно</td></tr>
       <tr><td>Медовое тесто</td><td>Медовик</td><td id="row_med" class="status-todo">❌ Нужно</td></tr>
       <tr><td>Снежная / специальная взбитая масса</td><td>Павлова</td><td id="row_sneg" class="status-todo">❌ Нужно</td></tr>
