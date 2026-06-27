@@ -194,18 +194,10 @@
   <div class="section-header">ЕОР 3 — Оборудование, машины и инструменты</div>
 
   <div class="item" id="i18">
-    <input type="checkbox" onchange="toggle('i18','row_equip')">
+    <input type="checkbox" onchange="toggle('i18','row_recom')">
     <div class="item-text">
-      <div class="item-title">Остальные группы оборудования <span class="tag tag-todo">❌ нужно</span></div>
-      <div class="item-sub">Конвектомат, холодильное, формовочное, упаковочное — обзорный документ с функциями и BOZP</div>
-    </div>
-  </div>
-
-  <div class="item" id="i19">
-    <input type="checkbox" onchange="toggle('i19','row_serv')">
-    <div class="item-text">
-      <div class="item-title">Техобслуживание оборудования <span class="tag tag-todo">❌ нужно</span></div>
-      <div class="item-sub">Чистка, настройка, смазка — можно добавить в обзорный документ по оборудованию</div>
+      <div class="item-title">Рекомендательный лист от работодателя <span class="tag tag-todo">❌ нужно</span></div>
+      <div class="item-sub">Подтверждение работы с оборудованием (конвектомат, холодильное, формовочное, упаковочное) и соблюдения BOZP — покрывает JVV3 без отдельного документа</div>
     </div>
   </div>
 
@@ -302,8 +294,7 @@
       <tr><td>Аллергены</td><td>Red Velvet</td><td id="row_allerg" class="status-done">✅ Готово</td></tr>
       <tr><td>Входной контроль качества сырья</td><td>Vstupný kontrolný záznam</td><td id="row_vhod" class="status-done">✅ Готово</td></tr>
       <tr><td>Оборудование — планетарный миксер</td><td>Red Velvet</td><td id="row_mixer" class="status-done">✅ Готово</td></tr>
-      <tr><td>Оборудование — остальные группы</td><td>Обзорный документ</td><td id="row_equip" class="status-todo">❌ Нужно</td></tr>
-      <tr><td>Техобслуживание оборудования</td><td>Обзорный документ</td><td id="row_serv" class="status-todo">❌ Нужно</td></tr>
+      <tr><td>Оборудование (все группы) + BOZP + техобслуживание</td><td>Рекомендательный лист от работодателя</td><td id="row_recom" class="status-todo">❌ Нужно</td></tr>
       <tr><td>HACCP / CCP</td><td>Red Velvet</td><td id="row_haccp" class="status-done">✅ Готово</td></tr>
       <tr><td>Калькуляция и ценообразование</td><td>Red Velvet</td><td id="row_calc" class="status-done">✅ Готово</td></tr>
       <tr><td>Маркетинг / продажи</td><td>Red Velvet</td><td id="row_market" class="status-done">✅ Готово</td></tr>
@@ -315,7 +306,7 @@
 </div>
 
 <script>
-  const total = 24;
+  const total = 23;
 
   function toggle(itemId, rowId) {
     const item = document.getElementById(itemId);
