@@ -163,13 +163,6 @@
 <div class="section eor2">
   <div class="section-header">ЕОР 2 — Хранение сырья, полуфабрикатов и готовой продукции</div>
 
-  <div class="item" id="i16">
-    <input type="checkbox" onchange="toggle('i16','row_vhod')">
-    <div class="item-text">
-      <div class="item-title">Входной контроль качества сырья <span class="tag tag-todo">❌ нужно</span></div>
-      <div class="item-sub">Образец журнала входного контроля (приём товара, органолептика при приёме)</div>
-    </div>
-  </div>
 
   <div class="item" id="i13">
     <input type="checkbox" onchange="toggle('i13','row_sklad')">
@@ -184,6 +177,14 @@
     <div class="item-text">
       <div class="item-title">Срок годности / минимальная трванливость <span class="tag tag-todo">❌ нужно</span></div>
       <div class="item-sub">Таблица по фазам (сырьё / полуфабрикат / готовое изделие) — общий документ, не привязан к одному рецепту</div>
+    </div>
+  </div>
+
+  <div class="item done" id="i16">
+    <input type="checkbox" checked onchange="toggle('i16','row_vhod')">
+    <div class="item-text">
+      <div class="item-title">Входной контроль качества сырья <span class="tag tag-done">✅ готово</span></div>
+      <div class="item-sub">Vstupný kontrolný záznam — príjem surovín, označenie, stav obalu, zmyslové posúdenie, DMT/DS</div>
     </div>
   </div>
 
@@ -308,7 +309,7 @@
       <tr><td>Хранение сырья и готовых изделий</td><td>Сводный документ</td><td id="row_sklad" class="status-todo">❌ Нужно</td></tr>
       <tr><td>Срок годности / DMT</td><td>Сводный документ</td><td id="row_srok" class="status-todo">❌ Нужно</td></tr>
       <tr><td>Аллергены</td><td>Red Velvet</td><td id="row_allerg" class="status-done">✅ Готово</td></tr>
-      <tr><td>Входной контроль качества сырья</td><td>Журнал входного контроля</td><td id="row_vhod" class="status-todo">❌ Нужно</td></tr>
+      <tr><td>Входной контроль качества сырья</td><td>Vstupný kontrolný záznam</td><td id="row_vhod" class="status-done">✅ Готово</td></tr>
       <tr><td>Оборудование — планетарный миксер</td><td>Red Velvet</td><td id="row_mixer" class="status-done">✅ Готово</td></tr>
       <tr><td>Оборудование — остальные группы</td><td>Обзорный документ</td><td id="row_equip" class="status-todo">❌ Нужно</td></tr>
       <tr><td>Техобслуживание оборудования</td><td>Обзорный документ</td><td id="row_serv" class="status-todo">❌ Нужно</td></tr>
