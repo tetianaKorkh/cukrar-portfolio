@@ -239,14 +239,6 @@
   </div>
 
 
-  <div class="item" id="i25">
-    <input type="checkbox" onchange="toggle('i25','row_prikaz')">
-    <div class="item-text">
-      <div class="item-title">Производственный приказ / выдача сырья <span class="tag tag-todo">❌ нужно</span></div>
-      <div class="item-sub">Образец формы выдачи сырья на производство</div>
-    </div>
-  </div>
-
   <div class="item" id="i26">
     <input type="checkbox" onchange="toggle('i26','row_cistenie')">
     <div class="item-text">
@@ -327,13 +319,12 @@
       <tr><td>Складская карточка</td><td>Образец формы</td><td id="row_skl_karta" class="status-todo">❌ Нужно</td></tr>
       <tr><td>Журнал мониторинга HACCP</td><td>CCP2 Protokol monitorovania</td><td id="row_hac_journal" class="status-done">✅ Готово</td></tr>
       <tr><td>Protokol čistenia a dezinfekcie</td><td>Záznam o čistení</td><td id="row_cistenie" class="status-todo">❌ Нужно</td></tr>
-      <tr><td>Производственный приказ</td><td>Образец формы</td><td id="row_prikaz" class="status-todo">❌ Нужно</td></tr>
     </tbody>
   </table>
 </div>
 
 <script>
-  const total = 26;
+  const total = 25;
 
   function toggle(itemId, rowId) {
     const item = document.getElementById(itemId);
